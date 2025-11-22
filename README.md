@@ -27,20 +27,6 @@ Passwords are hashed using **bcrypt** before being stored in the SQLite database
 Authentication attempts and search queries are recorded in `app.log`.
 
 ---
-
-## Project Structure
-vuln_web_project/
-│
-├── vuln_app.py # Main Flask app
-├── vuln.db # SQLite DB (auto-created)
-├── app.log # Login & search logs
-├── README.md # Documentation
-│
-├── search_test.png # XSS prevention screenshot
-├── login_failed.png # SQL injection prevention screenshot
-└── login_success.png # Successful login screenshot
----
-
 ## How to Run the Application
 
 ### 1. Activate virtual environment
